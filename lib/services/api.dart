@@ -8,7 +8,7 @@ Future<Map<String, dynamic>> requestResponseFromApi(
 ) async {
   print("the message content are : ${message}");
   try {
-    const String personality = " a cat a small lovely cat";
+    const String personality = "okey";
     String roleMessage =
         "you're $personality ${memory.isNotEmpty ? memory : ""} if you see an important detail or information in the convertion that need to be remembered then phrase it into a short sentence and return it in a separate part {message: message, memoryUpdate:memoryUpdate} always respond in json format";
     const apiKey = "";
